@@ -1,9 +1,35 @@
+html {
+	height : 100%;
+}
+
 body {
+    height : 100%;
     padding-top: 54px;
+    
 }
 
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
     }
+}
+
+.wrapper {
+	min-height : 100%;
+position : relative;
+}
+
+.content {
+	padding-bottom : 60px;
+}
+
+footer {
+	margin : 0;
+	align : center; 
+}
+
+
+.footer {
+	position : absolute;
+	bottom : 15px;
 }
