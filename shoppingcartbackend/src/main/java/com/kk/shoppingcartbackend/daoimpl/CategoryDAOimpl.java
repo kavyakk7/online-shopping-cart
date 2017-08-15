@@ -18,27 +18,27 @@ public class CategoryDAOimpl implements CategoryDAO {
 		Category category = new Category();
 
 		category.setId(1);
-		category.setName("TV");
-		category.setDescription("Television");
-		category.setImageURL("CAT.png");
+		category.setName("Women Clothing");
+		category.setDescription("Wide Variety of Women Clothing");
+		category.setImageURL("#");
 
 		categories.add(category);
 
 		Category category1 = new Category();
 
 		category1.setId(2);
-		category1.setName("Mobile");
-		category1.setDescription("Mobile phones");
-		category1.setImageURL("CAT.png");
+		category1.setName("Men Clothing");
+		category1.setDescription("Wide Variety of Men Clothing");
+		category1.setImageURL("#");
 
 		categories.add(category1);
 
 		Category category2 = new Category();
 
 		category2.setId(3);
-		category2.setName("Clothes");
-		category2.setDescription("Men and Women Clothing");
-		category2.setImageURL("CAT.png");
+		category2.setName("Kids Clothing");
+		category2.setDescription("Wide Variety of Kids Clothin");
+		category2.setImageURL("#");
 
 		categories.add(category2);
 	}
