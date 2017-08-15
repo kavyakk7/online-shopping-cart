@@ -1,7 +1,7 @@
 $(function(){
 	switch(menu){
 	
-	case 'View Products':
+	case 'All Products':
 		$('#listProducts').addClass('active');
 		break;
 	case 'Contact':
@@ -11,6 +11,8 @@ $(function(){
 		$('#about').addClass('active');
 		break;
 	default:
-		$('#home').addClass('active');
+		$('#listProducts').addClass('active');
+		$('#a_'+menu).addClass('active');
+		break;
 	}
 })
